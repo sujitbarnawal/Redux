@@ -1,6 +1,6 @@
 # 🧠 Learning Redux Toolkit – State Management Journey
 
-This repository documents my learning journey of **Redux Toolkit** for modern and efficient state management in React applications. I practiced with two projects to understand the core concepts and application structure.
+This repository documents my learning journey of **Redux Toolkit** for modern and efficient state management in React applications. I practiced with multiple projects to understand the core concepts and application structure.
 
 ---
 
@@ -23,30 +23,45 @@ This repository documents my learning journey of **Redux Toolkit** for modern an
 
 📝 A simple **post creation app** that goes one step further to show real-world usage:
 
-- 🏗️ Project structure with multiple components and modular code
-- 🔁 Understanding **data flow** in Redux: from user input to state and UI
-- 📦 Managing state in a centralized way for better maintainability
+- 🏗️ Project structure with multiple components and modular code  
+- 🔁 Understanding **data flow** in Redux: from user input to state and UI  
+- 📦 Managing state in a centralized way for better maintainability  
 - ✨ Demonstrates how Redux logic and UI logic can be separated
 
 > This project helped me learn how to structure Redux code properly in a real application.
 
 ---
 
+### 3. `create-post-redux-thunk`
+
+🔄 A more advanced version of the **post creation app**, using **asynchronous logic** with Redux Toolkit's **`createAsyncThunk`**:
+
+- 🌐 Used **fake APIs** (or real APIs) to fetch and submit data  
+- 🚦 Managed different states: `loading`, `succeeded`, `failed`  
+- 🔁 Understood how **side effects** like API calls fit into Redux's unidirectional data flow  
+- 🔄 Updated UI based on async response using Redux state
+
+> This project solidified my understanding of handling asynchronous operations with Redux Toolkit.
+
+---
+
 ## 🚀 What I Learned
 
-- ✅ Core Redux Toolkit concepts: `createSlice`, `configureStore`
-- ✅ Dispatching actions and selecting state
-- ✅ Organizing code in scalable architecture
-- ✅ Understanding unidirectional data flow
-- ✅ Importance of state centralization for predictable behavior
+- ✅ Core Redux Toolkit concepts: `createSlice`, `configureStore`  
+- ✅ Dispatching actions and selecting state  
+- ✅ Organizing code in scalable architecture  
+- ✅ Understanding unidirectional data flow  
+- ✅ Importance of state centralization for predictable behavior  
+- ✅ **Handling async operations** using `createAsyncThunk`  
+- ✅ Managing loading and error states cleanly in Redux  
 
 ---
 
 ## 🛠️ Tech Stack
 
-- React
-- Redux Toolkit
-- React-Redux
+- React  
+- Redux Toolkit  
+- React-Redux  
 
 ---
 
