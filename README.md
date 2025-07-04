@@ -34,7 +34,7 @@ This repository documents my learning journey of **Redux Toolkit** for modern an
 
 ### 3. `create-post-redux-thunk`
 
-🔄 A more advanced version of the **post creation app**, using **asynchronous logic** with Redux Toolkit's **`createAsyncThunk`**:
+🔄 A more advanced version of the **post creation app**, using **asynchronous logic** with Redux Toolkit's `createAsyncThunk`:
 
 - 🌐 Used **fake APIs** (or real APIs) to fetch and submit data  
 - 🚦 Managed different states: `loading`, `succeeded`, `failed`  
@@ -42,6 +42,19 @@ This repository documents my learning journey of **Redux Toolkit** for modern an
 - 🔄 Updated UI based on async response using Redux state
 
 > This project solidified my understanding of handling asynchronous operations with Redux Toolkit.
+
+---
+
+### 4. `blog-app-redux`
+
+📰 A **blog application** demonstrating full **CRUD functionality** using Redux Toolkit:
+
+- ✍️ **Create**, 🧾 **Read**, 🛠️ **Update**, and ❌ **Delete** blog posts  
+- 🧩 Modular Redux slices to manage posts and user interactions  
+- 🔃 Showcased effective use of `useDispatch`, `useSelector`, and conditional rendering  
+- 🧠 Learned to maintain a clean Redux structure for dynamic, state-driven UIs
+
+> This project helped me implement full data manipulation with Redux Toolkit and strengthened my confidence in building complex, interactive apps.
 
 ---
 
@@ -54,15 +67,17 @@ This repository documents my learning journey of **Redux Toolkit** for modern an
 - ✅ Importance of state centralization for predictable behavior  
 - ✅ **Handling async operations** using `createAsyncThunk`  
 - ✅ Managing loading and error states cleanly in Redux  
+- ✅ Performing **CRUD operations** using Redux state management
 
 ---
 
 ## 🛠️ Tech Stack
 
-- React  
-- Redux Toolkit  
-- React-Redux  
+- ⚛️ React  
+- 📦 Redux Toolkit  
+- 🔁 React-Redux  
 
 ---
 
-Thanks for checking out my Redux learning journey!
+Thanks for checking out my Redux learning journey!  
+Feel free to ⭐ the repo if you found it helpful.
